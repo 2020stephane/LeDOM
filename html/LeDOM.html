@@ -10,16 +10,38 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>LeDOM</title>
-     <link rel="stylesheet" href="LeDOM.css">
+     <link rel="stylesheet" href="/css/LeDOM.css">
 </head>
 <body>
      <header>
+          <h1>voici le le titre de la page HTML</h1>
      </header>
      <main>
-
+          <ul>
+               <li>liste 1</li>
+               <li>liste 2</li>
+               <li>liste 3</li>
+               <li>liste 4</li>
+          </ul>
      </main>
-     <script src="LeDOM.js"></script>
+
+  <!--=====================================================
+  ======================  FOOTER  =========================
+  ======================================================-->
      <footer>
+        <button id="action">lancer la fonction</button>
+        <button id="reset">remise à zero</button>
      </footer>
+    <script src="/js/LeDOM.js"></script>
+    <script>
+     const btn1 = document.querySelector('#action');
+     btn1.addEventListener('click', () => {
+            testDom();
+     });
+     const btn2 = document.querySelector('#reset');
+     btn2.addEventListener('click', () => {
+           location.reload();
+     });
+    </script>
 </body>
 </html>

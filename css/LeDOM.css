@@ -25,3 +25,30 @@
  font-family: "Roboto", sans-serif;
  color: #000;
  }
+h1 {
+ text-align: center;
+}
+
+/* ===========================================================
+   =========================================================== */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  margin-top:  100px;
+}
+button {
+     padding: 10px;
+     border-radius: 10px;
+}
+#action {
+  background-color: rgb(184, 232, 140);
+  color: #000;
+}
+#reset {
+  background-color: rgb(219, 126, 126);
+  color: #000;
+}
