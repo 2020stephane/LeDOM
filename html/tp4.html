@@ -1,0 +1,40 @@
+<!--===========================================================
+    FICHIER : tp4.html
+    PROJET  : LeDOM
+    DATE    : 10/04/2026
+    AUTEUR  : Stephane Brisse
+    ===========================================================-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>LeDOM</title>
+     <link rel="stylesheet" href="tp4.css">
+</head>
+<body>
+     <header>
+     </header>
+     <main>
+
+     </main>
+  <!--=====================================================
+  ======================  FOOTER  =========================
+  ======================================================-->
+     <footer>
+        <button id="action">lancer la fonction</button>
+        <button id="reset">remise à zero</button>
+     </footer>
+    <script src="../js/tp4.js"></script>
+    <script>
+     const btn1 = document.querySelector('#action');
+     btn1.addEventListener('click', () => {
+            testDomTp4();
+     });
+     const btn2 = document.querySelector('#reset');
+     btn2.addEventListener('click', () => {
+           location.reload();
+     });
+    </script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 /* ===========================================================
-   FICHIER : tp3.css
+   FICHIER : tp4.css
    PROJET  : LeDOM
    DATE    : 10/04/2026
    AUTEUR  : Stephane Brisse
@@ -40,30 +40,16 @@
 }
 .header_li {
   list-style-type: none;
-  text-decoration: none;
-  text-transform: none;
-  font-style: normal;
-
 }
 /* ==================================================
    TP
    ================================================== */
+
 h1 {
-     color: #e20a0a;
+ text-align: center;
 }
-h2 {
-     color: #11d167;
-}
-.p_actif{
-     color: #640edc;
-}
-.p_inactif {
-     color: #090909;
-     background-color: #baaeae;
-     margin: 10px;
-}
+
 /* ===========================================================
-   FOOTER
    =========================================================== */
 footer {
   display: flex;
