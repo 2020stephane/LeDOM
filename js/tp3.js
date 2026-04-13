@@ -5,11 +5,13 @@
 //    AUTEUR  : Stephane Brisse
 //===========================================================
 function testDomTp3() {
-     const ref_h1 = document.querySelector("h1");
- ref_h1.style.setProperty("color", "rgb(0,255,0)");
 
- document.querySelector("h2").style.setProperty("color", "red");
- document.querySelector("p").style.setProperty("color", "#000");
+document.querySelector("h1").style.setProperty("color", "rgb(0,255,0)");
+document.querySelector("#p2").style.setProperty("--macouleur", "blue");
 
- document.querySelector("p").classList.replace("p_actif","p_inactif");
+
+document.querySelector("p").classList.replace("p_actif","p_inactif");
+document.querySelector("p").classList.add("p_ajout");
+//  document.querySelector("p").classList.remove("p_inactif");
+document.querySelector("p").classList.toggle("p_ajout");
 }
