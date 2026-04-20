@@ -49,7 +49,19 @@ h1 {
  text-align: center;
  border: solid red;
 }
+.main_ul {
+  /*uniquement sur le papa */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: nowrap;
 
+}
+main li {
+  list-style-type: none;
+}
 /* ===========================================================
    =========================================================== */
 footer {

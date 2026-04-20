@@ -6,8 +6,19 @@
 //===========================================================
 function testDomTp4() {
      const ref_h1 = document.querySelector("h1");
-     ref_h1.addEventListener("click", () => mafonction(ref_h1));
+     ref_h1.addEventListener("click", () => mafonction1(ref_h1));
+     const ref_li =document.querySelector(".main_ul");
+     ref_li.addEventListener("click", (event) => mafonction2(event, ref_li));
 }
-function mafonction(ref_h1) {
+function mafonction1(ref_h1) {
      ref_h1.textContent = "titre h1 modifie";
+}
+function mafonction2(event, ref_li) {
+     const elementClique = event.target;
+     const ctarget = event.currentTarget;
+
+    if (elementClique.tagName === "LI") {
+        elementClique.textContent = `J'ai été modifié ! par un evenement sur ${ctarget.tagName}`;
+        elementClique.style.color = "red";
+    }
 }
