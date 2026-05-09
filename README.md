@@ -16,12 +16,10 @@ Ce projet a été conçu pour comprendre en profondeur comment le navigateur int
 
 | Fichier | Thème |
 |--------|-------|
-| `DOM_intro1.pdf` | Introduction au DOM — concepts fondamentaux |
-| `DOM_intro2.pdf` | L'arbre DOM — nœuds, éléments, structure |
-| `DOM_intro3.pdf` | Sélectionner et traverser les éléments |
-| `DOM_intro4.pdf` | Manipulation du DOM avec JavaScript |
-| `DOM_chapitre1-1.pdf` | Chapitre 1 — Partie 1 |
-| `DOM_chapitre1-2.pdf` | Chapitre 1 — Partie 2 |
+| `DOM.pdf` | Support de cours — concepts fondamentaux |
+| `*.html` | Fichiers HTML pour le rendu |
+| `*.css` | Feuilles de styles |
+| `*.js` | Fichiers en javascript pour manipuler le DOM |
 
 ---
 
@@ -30,11 +28,20 @@ Ce projet a été conçu pour comprendre en profondeur comment le navigateur int
 ```
 LeDOM/
 ├── html/
-│   └── LeDOM.html        # Page principale de l'exposé
+│   └── LeDOM.html        # Page principale de l'exposé(TP1)
+|   └── tp2.html          # TP2
+|   └── tp2.html          # TP3
+|   └── tp2.html          # TP4
 ├── css/
 │   └── LeDOM.css         # Styles (reset + typographie Roboto)
+│   └── tp2.css           # Styles por le TP2
+│   └── tp3.css           # Styles por le TP3
+│   └── tp4.css           # Styles por le TP4
 ├── js/
-│   └── LeDOM.js          # Scripts JavaScript
+│   └── tp1.js            # Scripts JavaScript TP1
+│   └── tp2.js            # Scripts JavaScript TP2
+│   └── tp3.js            # Scripts JavaScript TP3
+│   └── tp4.js            # Scripts JavaScript TP4
 ├── fonts/
 │   └── roboto/           # Police locale Roboto
 └── pdf/
@@ -48,7 +55,6 @@ LeDOM/
 1. **Cloner le dépôt**
    ```bash
    git clone https://github.com/2020stephane/LeDOM.git
-   cd LeDOM
    ```
 
 2. **Ouvrir dans le navigateur**
