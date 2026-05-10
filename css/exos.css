@@ -1,0 +1,145 @@
+/* ===========================================================
+   FICHIER : exos.css
+   PROJET  : LeDOM
+   DATE    : 10/05/2026
+   AUTEUR  : Stephane Brisse
+   =========================================================== */
+ @font-face {
+ font-family: "Roboto";
+ src: url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+ font-weight: 400;
+ font-style: normal;
+ font-display: swap;
+ }
+ *,
+ *::before,
+ *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ html {
+ scroll-behavior: smooth;
+ }
+ body {
+ font-family: "Roboto", sans-serif;
+ color: #000;
+ }
+/* ==================================================
+   HEADER
+   ================================================== */
+.header_ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.header_li {
+  list-style-type: none;
+}
+
+/* ==================================================
+   EXO1
+   ================================================== */
+h1 {
+ text-align: center;
+ margin-top:  25px;
+}
+.cache {
+  display: none;
+}
+.exo1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+   margin-top:  25px;
+}
+/* ==================================================
+   EXO2
+   ================================================== */
+.bt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+   margin-top:  25px;
+}
+#compteur {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+   margin-top:  25px;
+}
+.bt3 {
+display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top:  25px;
+}
+/* ==================================================
+   EXO3
+   ================================================== */
+.demo-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; }
+
+#hover-box {
+  border: 1.5px solid #e0ddd6;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  font-size: 16px;
+  color: #7a7870;
+  cursor: default;
+  user-select: none;
+  transition: background .2s, color .2s, border-color .2s;
+}
+
+#hover-box.actif {
+  background: #eeedfe;
+  color: #3c3489;
+  border-color: #7f77dd;
+}
+.status-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 13px;
+      color: #7a7870;
+      padding: 0 4px;
+    }
+/* ==================================================
+   FOOTER
+   ================================================== */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  margin-top:  50px;
+}
+button {
+     padding: 10px;
+     border-radius: 10px;
+}
+#action {
+  background-color: rgb(184, 232, 140);
+  color: #000;
+}
+#reset {
+  background-color: rgb(219, 126, 126);
+  color: #000;
+}

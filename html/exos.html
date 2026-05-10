@@ -1,7 +1,7 @@
 <!--===========================================================
-    FICHIER : LeDOM.html
+    FICHIER : exos.html
     PROJET  : LeDOM
-    DATE    : 06/04/2026
+    DATE    : 10/05/2026
     AUTEUR  : Stephane Brisse
     ===========================================================-->
 <!DOCTYPE html>
@@ -10,7 +10,7 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>LeDOM</title>
-     <link rel="stylesheet" href="../css/LeDOM.css">
+     <link rel="stylesheet" href="/css/exos.css">
 </head>
 <body>
 <!--=====================================================
@@ -37,35 +37,22 @@
                </ul>
           </nav>
      </header>
-<!--=====================================================
-======================  MAIN  =========================
-======================================================-->
      <main>
-          <h1>voici le le titre de la page HTML</h1>
-          <br><br>
-          <div>
 
-          </div>
-          <p>ceci est un <strong>paragraphe</strong></p>
-          <p class="class_p2">paragraphe 2</p>
-          <p id="id_p3">paragraphe 3</p>
-          <p>paragraphe 4</p>
-          <p>paragraphe 5</p>
-          <br><br>
      </main>
 
-  <!--=====================================================
+       <!--=====================================================
   ======================  FOOTER  =========================
   ======================================================-->
      <footer>
         <button id="action">lancer la fonction</button>
         <button id="reset">remise à zero</button>
      </footer>
-    <script src="../js/tp1.js"></script>
-    <script>
+     <script src="../js/exos.js"></script>
+     <script>
      const btn1 = document.querySelector('#action');
      btn1.addEventListener('click', () => {
-            testDomTp1();
+            exo1();
      });
      const btn2 = document.querySelector('#reset');
      btn2.addEventListener('click', () => {
