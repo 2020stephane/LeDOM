@@ -5,13 +5,13 @@
 //    AUTEUR  : Stephane Brisse
 //===========================================================
 function testDomTp2() {
-     const new_ref = document.createElement("p");
-     new_ref.textContent = "nouveau paragraphe";
-     // const papa = document.querySelector("main");
-     // papa.append(new_ref);
-     // setTimeout(() => {
-     //     new_ref.remove();
-     // }, 5000);
+    //  const new_ref = document.createElement("div");
+    //  new_ref.textContent = "nouveau paragraphe";
+    //  const papa = document.querySelector("main");
+    //  papa.append(new_ref);
+    //  setTimeout(() => {
+    //      new_ref.remove();
+    //  }, 5000);
 
 
 
@@ -52,7 +52,7 @@ let annonces = [
    {
    categorie : "electricite",
    image : "../img/victron.webp",
-   titre : "convertisseur",
+   titre : "toto",
    description : "convertisseur victron 250w",
    prix : 45,
    datePublication : "24-04-2026",
@@ -91,10 +91,10 @@ annonces.forEach((annonce) => {
                 </li>
             `;
             pGrid.insertAdjacentHTML("beforeend", fiche);
-            pGrid.insertAdjacentHTML("afterbegin", fiche);
+            // pGrid.insertAdjacentHTML("afterbegin", fiche);
           });
      }
-//  ajouts();
+ ajouts();
 // const new_ref5 = document.createElement("p");
 // new_ref5.textContent = "paragraphe before";
 // const insert = document.querySelector("p");

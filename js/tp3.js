@@ -6,15 +6,16 @@
 //===========================================================
 function testDomTp3() {
 
-document.querySelector("h1").style.setProperty("color", "rgb(0,255,0)");
-document.querySelector("#p2").style.setProperty("--macouleur", "blue");
+// document.querySelector("h1").style.setProperty("color", "rgb(0,255,0)");
+// document.querySelector("#p2").style.setProperty("--macouleur", "blue");
 
 
-// document.querySelector("p").classList.replace("p_actif","p_inactif");
-// // document.querySelector("p").classList.add("p_ajout");
-// setTimeout(() => {
-//          document.querySelector("p").classList.remove("p_inactif");
-// }, 5000);
+const ptr = document.querySelector("p");
+ptr.classList.replace("p_actif","p_inactif");
+document.querySelector("p").classList.add("p_ajout");
+setTimeout(() => {
+         document.querySelector("p").classList.remove("p_inactif");
+}, 5000);
 
 // document.querySelector("p").classList.toggle("p_actif");
 }
